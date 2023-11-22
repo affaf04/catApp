@@ -1,38 +1,40 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #f8c6c6;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  align-items: center;
+  align-items: center;}
+
+.img {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 350px;
+  width: 350px;
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(243, 185, 185);
   color: white;
+  padding: 8px;
+  margin: 10px;
+  font-size: 1em;
+  border: solid 2px rebeccapurple;
+  border-radius: 20%;
+  background-image: 'https://cat-fact.herokuapp.com/img/logo/app-logo.png';
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cat {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(243, 185, 185);
+  color: white;
+  padding: 8px;
+  margin: 10px;
+  font-size: 1em;
+  border: solid 2px rebeccapurple;
+  border-radius: 20%;
+  background-image: 'https://cat-fact.herokuapp.com/img/logo/app-logo.png';
 }
